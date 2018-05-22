@@ -1,0 +1,578 @@
+.background {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: -9999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image {
+  overflow: hidden;
+  width: 20%;
+  opacity: 1;
+}
+
+.galerie-wrapper {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.galerie-image-2 {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  width: 45%;
+  height: 700px;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  float: left;
+  clear: none;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  background-image: url('../images/frank-flores-464935-unsplash.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+  -webkit-transition: box-shadow 400ms cubic-bezier(.77, 0, .175, 1);
+  transition: box-shadow 400ms cubic-bezier(.77, 0, .175, 1);
+  cursor: pointer;
+}
+
+.galerie-image-2:hover {
+  background-position: 50% 100%;
+}
+
+.galerie-image-2.shadow {
+  box-shadow: 0 40px 200px 0 rgba(0, 0, 0, .24);
+}
+
+.galerie-image {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  width: 45%;
+  height: 700px;
+  margin-top: 600px;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  float: left;
+  clear: none;
+  background-image: url('../images/Strudel.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.galerie-image:hover {
+  background-position: -500px 0px;
+}
+
+.galerie-image-3 {
+  position: relative;
+  overflow: hidden;
+  width: 45%;
+  height: 700px;
+  margin-top: 700px;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  float: right;
+  clear: none;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  background-image: url('../images/institut_tshirt_big_1.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.galerie-image-3:hover {
+  background-position: 50% 85%;
+  background-size: contain;
+}
+
+.heading {
+  position: static;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  display: none;
+  overflow: hidden;
+  width: auto;
+  margin-top: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: futura-pt, sans-serif;
+  color: #ff5c00;
+  font-size: 280px;
+  line-height: 280px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: left;
+}
+
+.heading.orange {
+  color: #ff5c00;
+}
+
+.heading.white {
+  display: none;
+  color: #fff;
+  font-size: 280px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.heading.white {
+  color: #fff;
+}
+
+.heading.black {
+  color: #000;
+  text-align: left;
+}
+
+.name-container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+  background-color: transparent;
+}
+
+.brand {
+  cursor: pointer;
+}
+
+.image-2 {
+  height: 30px;
+  margin-top: 15px;
+}
+
+.container {
+  height: 60px;
+}
+
+.nav-menu {
+  font-family: futura-pt, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nav-link {
+  width: 200px;
+  color: #fff;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+}
+
+.nav-link:hover {
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.nav-link.w--current {
+  color: #fff;
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.nav-link.schwarz {
+  color: #000;
+}
+
+.nav-link.schwarz.w--current {
+  text-decoration: underline;
+}
+
+.heading-2 {
+  width: 6000px;
+  font-family: futura-pt, sans-serif;
+  color: #000;
+  font-size: 48px;
+  font-style: italic;
+  text-align: left;
+}
+
+.background-wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image-3 {
+  width: auto;
+  height: 60px;
+}
+
+.band-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 120%;
+  height: 60px;
+  margin-left: -10%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #000;
+  -webkit-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+
+.heading-3 {
+  width: 6000px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: futura-pt, sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.band-hover {
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  overflow: hidden;
+  width: 100px;
+  height: 80px;
+}
+
+.body {
+  overflow: visible;
+}
+
+.body.schwarz {
+  background-color: #000;
+}
+
+.form-block {
+  margin-top: 0px;
+}
+
+.form {
+  position: relative;
+  left: 0%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 50%;
+  margin-top: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-field {
+  height: 500px;
+  margin-bottom: 64px;
+  border-style: none none solid;
+  border-width: 1px 1px 4px;
+  border-color: #000;
+  font-family: futura-pt, sans-serif;
+  color: #000;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: left;
+}
+
+.text-field:focus {
+  border-style: none none solid;
+  border-right-color: #000;
+  border-bottom-width: 20px;
+  border-bottom-color: #000;
+}
+
+.text-field-2 {
+  margin-top: 80px;
+  border-style: none none solid;
+  border-bottom-width: 4px;
+  border-bottom-color: #000;
+}
+
+.submit-button {
+  width: auto;
+  height: 120px;
+  margin-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: #000;
+  font-family: futura-pt, sans-serif;
+  color: #fff;
+  font-size: 100px;
+  font-style: italic;
+}
+
+.div-block {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background-image: -webkit-linear-gradient(270deg, #fff, #fff);
+  background-image: linear-gradient(180deg, #fff, #fff);
+}
+
+.loader-wrap {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 9999;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-image: -webkit-linear-gradient(270deg, #fff, #fff);
+  background-image: linear-gradient(180deg, #fff, #fff);
+}
+
+.image-4 {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: auto;
+  height: 60px;
+  margin-top: -30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-wrapper {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 150px;
+}
+
+.image-5 {
+  display: block;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.paragraph {
+  display: block;
+  width: auto;
+  margin-top: 64px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: futura-pt, sans-serif;
+  color: #000;
+  font-size: 48px;
+  line-height: 54px;
+  font-style: italic;
+  text-align: center;
+}
+
+.funny {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.image-6 {
+  margin-top: 3000px;
+}
+
+.image-7 {
+  margin-top: 6000px;
+}
+
+.image-8 {
+  margin-top: 9000px;
+  margin-bottom: 2000px;
+}
+
+.textarea {
+  border: 2px solid #000;
+}
+
+.heading-4 {
+  margin-top: 100px;
+  font-family: futura-pt, sans-serif;
+  color: #000;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.heading-5 {
+  position: static;
+  left: 0px;
+  top: 50%;
+  right: 0px;
+  bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #000;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.kontakt-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10000px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: underline;
+}
+
+.image-9 {
+  position: fixed;
+  left: 50%;
+  top: 0px;
+  right: 0px;
+  width: 400px;
+  margin-left: -200px;
+  -webkit-transform: translate(0px, 100vh);
+  -ms-transform: translate(0px, 100vh);
+  transform: translate(0px, 100vh);
+}
+
+.link-block {
+  position: fixed;
+  top: 50%;
+  margin-top: -25px;
+}
+
+.auge {
+  width: 150px;
+  height: 150px;
+  margin-right: 25px;
+  margin-left: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.pupille {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.nav-weiss {
+  color: #fff;
+}
+
+.augen-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: underline;
+}
+
+.html-embed {
+  display: block;
+  overflow: hidden;
+  opacity: 1;
+}
+
