@@ -29,7 +29,7 @@
   </div>
   <div data-w-id="2057cbff-a7f5-de7c-de23-8c4ee596e986" class="kontakt-wrapper">
     <a href="mailto:institut.welt@gmail.com?subject=nachricht" class="link-block w-inline-block">
-      <h1 class="heading-5">institut.welt@gmail.com</h1>
+      <h1 class="heading-5">kontakt@institut.site</h1>
     </a><img src="images/Komp_7.gif" data-w-id="9b7bd56b-05c3-e039-cd29-4eb6a9723756" alt="" class="image-9"><img src="images/Komp_7.gif" alt="" class="image-9"></div>
   <div data-collapse="none" data-animation="default" data-duration="400" class="footer w-nav">
     <div class="footer-container w-container">
@@ -47,7 +47,7 @@
 	var scrollTime = 0.5;			//Scroll time
 	var scrollDistance = 130;		//Distance. Use smaller value for shorter scroll and greater value for longer scroll
 	$window.on("mousewheel DOMMouseScroll", function(event){
-		event.preventDefault();	
+		event.preventDefault();
 		var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
 		var scrollTop = $window.scrollTop();
 		var finalScroll = scrollTop - parseInt(delta*scrollDistance);
@@ -55,7 +55,7 @@
 			scrollTo : { y: finalScroll, autoKill:true },
 				ease: Power1.easeOut,	//For more easing functions see https://api.greensock.com/js/com/greensock/easing/package-detail.html
 				autoKill: true,
-				overwrite: 5							
+				overwrite: 5
 			});
 	});
 });
