@@ -1559,7 +1559,7 @@
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  background-image: url('../images/frank-flores-464935-unsplash.jpg');
+  background-image: url('../images/dcx_doc72af9nlxd9j8ak0x8y1.png');
   background-position: 50% 100%;
   background-size: cover;
   -webkit-transition: box-shadow 400ms cubic-bezier(.77, 0, .175, 1);
@@ -1568,7 +1568,7 @@
 }
 
 .galerie-image-2:hover {
-  background-position: 50% 100%;
+  background-position: 0% 0%;
 }
 
 .galerie-image-2.shadow {
@@ -1634,8 +1634,8 @@
   margin-right: auto;
   margin-left: auto;
   direction: ltr;
-  font-family: futura-pt, sans-serif;
-  color: #ff5c00;
+  font-family: futura-pt;
+  color: #c0f;
   font-size: 280px;
   line-height: 280px;
   font-style: italic;
@@ -1705,7 +1705,7 @@
 }
 
 .nav-menu {
-  font-family: futura-pt, sans-serif;
+  font-family: futura-pt;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -1742,7 +1742,7 @@
 
 .heading-2 {
   width: 6000px;
-  font-family: futura-pt, sans-serif;
+  font-family: futura-pt;
   color: #000;
   font-size: 48px;
   font-style: italic;
@@ -1797,7 +1797,7 @@
   width: 6000px;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: futura-pt, sans-serif;
+  font-family: futura-pt;
   color: #fff;
   font-size: 24px;
   font-style: italic;
@@ -1844,7 +1844,7 @@
   border-style: none none solid;
   border-width: 1px 1px 4px;
   border-color: #000;
-  font-family: futura-pt, sans-serif;
+  font-family: futura-pt;
   color: #000;
   font-size: 32px;
   font-style: italic;
@@ -1873,7 +1873,7 @@
   padding-right: 50px;
   padding-left: 50px;
   background-color: #000;
-  font-family: futura-pt, sans-serif;
+  font-family: futura-pt;
   color: #fff;
   font-size: 100px;
   font-style: italic;
@@ -1942,7 +1942,7 @@
   margin-top: 64px;
   margin-right: auto;
   margin-left: auto;
-  font-family: futura-pt, sans-serif;
+  font-family: futura-pt;
   color: #000;
   font-size: 48px;
   line-height: 54px;
@@ -1984,7 +1984,7 @@
 
 .heading-4 {
   margin-top: 100px;
-  font-family: futura-pt, sans-serif;
+  font-family: futura-pt;
   color: #000;
   font-style: italic;
   font-weight: 400;
@@ -2127,12 +2127,16 @@
 }
 
 .footer-link {
-  font-family: futura-pt, sans-serif;
+  font-family: futura-pt;
   color: #000;
   font-size: 14px;
   font-style: italic;
   font-weight: 700;
   text-align: center;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
 }
 
 .footer-container {
@@ -2168,7 +2172,7 @@
 }
 
 .footer-link-augen {
-  font-family: futura-pt, sans-serif;
+  font-family: futura-pt;
   color: #fff;
   font-size: 14px;
   font-style: italic;
@@ -2184,7 +2188,7 @@
 
 .impressum-h1 {
   margin-bottom: 24px;
-  font-family: futura-pt, sans-serif;
+  font-family: futura-pt;
   color: #000;
   font-size: 40px;
   font-style: italic;
@@ -2192,7 +2196,7 @@
 
 .paragraph-2 {
   height: auto;
-  font-family: futura-pt, sans-serif;
+  font-family: futura-pt;
   font-style: italic;
 }
 
