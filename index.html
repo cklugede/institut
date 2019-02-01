@@ -33,7 +33,7 @@
       </a>
     </div>
     <div data-w-id="a287a1af-2212-2add-298a-f32497f73626" class="galerie-image-2">
-      <a href="https://www.google.com/" target="_blank" class="link-block-3 w-inline-block">
+      <a href="https://play.google.com/store/apps/details?id=site.institut.welt.lebensblumen" target="_blank" class="link-block-3 w-inline-block">
         <h1 data-w-id="d81f379e-165d-91a5-0443-b69e275181a1" style="display:none" class="heading">lebens<br>blumen<br>app</h1>
       </a>
     </div>
@@ -58,7 +58,7 @@
 	var scrollTime = 0.5;			//Scroll time
 	var scrollDistance = 130;		//Distance. Use smaller value for shorter scroll and greater value for longer scroll
 	$window.on("mousewheel DOMMouseScroll", function(event){
-		event.preventDefault();	
+		event.preventDefault();
 		var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
 		var scrollTop = $window.scrollTop();
 		var finalScroll = scrollTop - parseInt(delta*scrollDistance);
@@ -66,7 +66,7 @@
 			scrollTo : { y: finalScroll, autoKill:true },
 				ease: Power1.easeOut,	//For more easing functions see https://api.greensock.com/js/com/greensock/easing/package-detail.html
 				autoKill: true,
-				overwrite: 5							
+				overwrite: 5
 			});
 	});
 });
